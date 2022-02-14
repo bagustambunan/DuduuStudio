@@ -4,7 +4,7 @@ export default function Bear() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-3xl md:text-3xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-8xl md:text-3xl font-bold py-20 text-center md:text-left">
         Oh My Bear Cute Stickers
         </h1>
       </div>
@@ -18,7 +18,7 @@ export default function Bear() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4 text-container max-w-6xl mx-auto pt-20">
       <p>
                   Duduu Studio built the Oh My Bear Cute Stickers app as
                   an Ad Supported app. This SERVICE is provided by
