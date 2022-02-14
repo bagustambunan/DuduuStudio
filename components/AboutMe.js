@@ -15,13 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
-            <a
-              className="bg-red-500 rounded-md px-2 py-1 text-white"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a>
+            {userData.about.title}
           </p>
         </div>
       </div>
@@ -31,34 +25,10 @@ export default function AboutMe() {
           <div className="inline-flex flex-col">
             <div>
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact
+                Title
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
-                <a
-                  href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  mail
-                </a>{" "}
-                and I'll get back. I swear.
-              </p>
-            </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Job Opportunities
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
-                check my{" "}
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  CV
-                </a>{" "}
-                and I'd love to work for you.
+                Description
               </p>
             </div>
             {/* Social Links */}
