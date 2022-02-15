@@ -3,9 +3,10 @@ import React from "react";
 export default function Bear() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-8xl md:text-3xl font-bold py-20 text-center md:text-left">
-        Oh My Bear Cute Stickers
+      <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
+        <img src="/icon-bear.png" className="pt-20"/>
+        <h1 className=" text-5xl md:text-8xl font-bold pb-20 text-center md:text-left">
+          Oh My Bear Cute Stickers
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
@@ -18,8 +19,9 @@ export default function Bear() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4 text-container max-w-6xl mx-auto pt-20">
-      <p>
+      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+        <div className="px-4 text-container max-w-6xl mx-auto pt-20">
+        <p>
                   Duduu Studio built the Oh My Bear Cute Stickers app as
                   an Ad Supported app. This SERVICE is provided by
                   Duduu Studio at no cost and is intended for use as
@@ -38,7 +40,7 @@ export default function Bear() {
                   The terms used in this Privacy Policy have the same meanings
                   as in our Terms and Conditions, which are accessible at
                   Oh My Bear Cute Stickers unless otherwise defined in this Privacy Policy.
-                </p> <p><strong>Information Collection and Use</strong></p> <p>
+                </p><br/><p><strong>Information Collection and Use</strong></p> <p>
                   For a better experience, while using our Service, I
                   may require you to provide us with certain personally
                   identifiable information. The information that
@@ -54,7 +56,7 @@ export default function Bear() {
                   
                   <li><a href="https://onesignal.com/privacy_policy" target="_blank" rel="noopener noreferrer">One Signal</a></li>
           
-                  </ul></div> <p><strong>Log Data</strong></p> <p>
+                  </ul></div><br/><p><strong>Log Data</strong></p> <p>
                   I want to inform you that whenever you
                   use my Service, in a case of an error in the app
                   I collect data and information (through third-party
@@ -64,7 +66,7 @@ export default function Bear() {
                   configuration of the app when utilizing my Service,
                   the time and date of your use of the Service, and other
                   statistics.
-                </p> <p><strong>Cookies</strong></p> <p>
+                </p><br/><p><strong>Cookies</strong></p> <p>
                   Cookies are files with a small amount of data that are
                   commonly used as anonymous unique identifiers. These are sent
                   to your browser from the websites that you visit and are
@@ -77,7 +79,7 @@ export default function Bear() {
                   and know when a cookie is being sent to your device. If you
                   choose to refuse our cookies, you may not be able to use some
                   portions of this Service.
-                </p> <p><strong>Service Providers</strong></p> <p>
+                </p><br/><p><strong>Service Providers</strong></p> <p>
                   I may employ third-party companies and
                   individuals due to the following reasons:
                 </p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p>
@@ -86,14 +88,14 @@ export default function Bear() {
                   Information. The reason is to perform the tasks assigned to
                   them on our behalf. However, they are obligated not to
                   disclose or use the information for any other purpose.
-                </p> <p><strong>Security</strong></p> <p>
+                </p><br/><p><strong>Security</strong></p> <p>
                   I value your trust in providing us your
                   Personal Information, thus we are striving to use commercially
                   acceptable means of protecting it. But remember that no method
                   of transmission over the internet, or method of electronic
                   storage is 100% secure and reliable, and I cannot
                   guarantee its absolute security.
-                </p> <p><strong>Links to Other Sites</strong></p> <p>
+                </p><br/><p><strong>Links to Other Sites</strong></p> <p>
                   This Service may contain links to other sites. If you click on
                   a third-party link, you will be directed to that site. Note
                   that these external sites are not operated by me.
@@ -102,7 +104,7 @@ export default function Bear() {
                   no control over and assume no responsibility for the content,
                   privacy policies, or practices of any third-party sites or
                   services.
-                </p> <p><strong>Children’s Privacy</strong></p> <div><p>
+                </p><br/><p><strong>Children’s Privacy</strong></p> <div><p>
                     These Services do not address anyone under the age of 13.
                     I do not knowingly collect personally
                     identifiable information from children under 13 years of age. In the case
@@ -112,18 +114,21 @@ export default function Bear() {
                     and you are aware that your child has provided us with
                     personal information, please contact me so that
                     I will be able to do the necessary actions.
-                  </p></div> 
+                  </p></div> <br/>
                   <p><strong>Changes to This Privacy Policy</strong></p> <p>
                   I may update our Privacy Policy from
                   time to time. Thus, you are advised to review this page
                   periodically for any changes. I will
                   notify you of any changes by posting the new Privacy Policy on
                   this page.
-                </p> <p>This policy is effective as of 2021-06-09</p> <p><strong>Contact Us</strong></p> <p>
+                </p> <p>This policy is effective as of 2021-06-09</p><br/>
+                <p><strong>Contact Us</strong></p> <p>
                   If you have any questions or suggestions about my
                   Privacy Policy, do not hesitate to contact me at uptoduduu@gmail.com.
                 </p> <p>This privacy policy page was created at <a href="https://privacypolicytemplate.net" target="_blank" rel="noopener noreferrer">privacypolicytemplate.net </a>and modified/generated by <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a></p>
+        </div>
       </div>
+      
     </section>
   );
 }
