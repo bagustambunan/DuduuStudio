@@ -4,7 +4,7 @@ export default function Saver() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <img src="/icon-saver.png" className="pt-20"/>
+        <img src="/icon-saver.png" className="pt-8"/>
         <h1 className=" text-5xl md:text-8xl font-bold pb-20 text-center md:text-left">
           Status Story Saver WhatsApp
         </h1>

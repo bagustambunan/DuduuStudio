@@ -4,7 +4,7 @@ export default function Bear() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <img src="/icon-bear.png" className="pt-20"/>
+        <img src="/icon-bear.png" className="pt-8"/>
         <h1 className=" text-5xl md:text-8xl font-bold pb-20 text-center md:text-left">
           Oh My Bear Cute Stickers
         </h1>
