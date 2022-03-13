@@ -22,6 +22,11 @@ const userData = {
       link: "https://page.line.me/?accountId=897pjzic",
       imgUrl: "/sigap.png",
     },
+    {
+      title: "Status Story Saver WhatsApp",
+      link: "https://play.google.com/store/apps/details?id=com.DuduuStudio.WAStatusSaver",
+      imgUrl: "/saver.png",
+    },
   ],
   about: {
     title:
