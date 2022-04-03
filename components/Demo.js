@@ -11,8 +11,11 @@ export default function Demo() {
           Demo Aplikasi "Sistem Deteksi Langsung Pemalsuan Suara Replay Attack Menggunakan CQT dan CNN"
         </p>
       </div>
-      <div className="px-4 text-container max-w-6xl mx-auto pt-20">
-      <iframe width="910" height="512" src="https://www.youtube.com/embed/BdS-rnIyHPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div  className="h-10"></div>
+
+      <div>
+      <iframe className="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/BdS-rnIyHPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
     </section>
