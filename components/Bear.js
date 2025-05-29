@@ -4,7 +4,7 @@ export default function Bear() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800">
-        <img src="/icon-bear.png" className="pt-8" />
+        <img src="/icon-bear.webp" className="pt-8" />
         <h1 className=" text-5xl md:text-8xl font-bold pb-20 text-center md:text-left">
           Oh My Bear Cute Stickers
         </h1>
@@ -22,8 +22,7 @@ export default function Bear() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="px-4 text-container max-w-6xl mx-auto pt-20">
           <p>
-            Duduu Studio built the Oh My Bear Cute Stickers app as an Ad
-            Supported app. This SERVICE is provided by Duduu Studio at no cost
+            Duduu Friends built the Oh My Bear Cute Stickers app as an entertainment app. This SERVICE is provided by Duduu Friends at no cost
             and is intended for use as is.
           </p>{" "}
           <p>
@@ -79,16 +78,6 @@ export default function Bear() {
                   rel="noopener noreferrer"
                 >
                   AdMob
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://onesignal.com/privacy_policy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  One Signal
                 </a>
               </li>
             </ul>
@@ -200,7 +189,7 @@ export default function Bear() {
           </p>{" "}
           <p>
             If you have any questions or suggestions about my Privacy Policy, do
-            not hesitate to contact me at uptoduduu@gmail.com.
+            not hesitate to contact me at duduufriends@gmail.com.
           </p>
         </div>
       </div>
